@@ -1,6 +1,4 @@
-Sure! Here is a brief description, how to use, and the files for each project:
 
-```markdown
 # Projects Overview
 
 ## Table of Contents
@@ -74,4 +72,3 @@ This project includes settings for running a live server, specifying the port nu
 Feel free to contribute to these projects or provide feedback. Happy coding!
 ```
 
-This README file provides a brief description, usage instructions, and lists the files for each project.
