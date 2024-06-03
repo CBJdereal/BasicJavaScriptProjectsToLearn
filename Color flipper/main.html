@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--The purpose of this file is to learn how javascript connects different events-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style type="text/css">
+        #btn1{
+            background-color: red;
+        } 
+        #btn2{
+            background-color: green;
+        } 
+        #btn3{
+            background-color: yellow;
+        } 
+        #btn4{
+            background-color: blue;
+        }
+        #btn5{
+            background-color: white;
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: auto 5px;
+        }
+    </style>
+</head>
+<body>
+  
+    <h3>Color Flipper</h3>
+    
+        <button id="btn1" onclick="setColor('red')">Red</button>
+        <button id="btn2"onclick="setColor('green')">Green</button>
+        <button id="btn3"onclick="setColor('Yellow')">Yellow</button>
+        <button id="btn4"onclick="setColor('blue')">Blue</button>
+        <button id="btn5"onclick="randomColor()">Random</button>
+  <script src="index.js"></script>
+</body>
+</html>
